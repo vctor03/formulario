@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <div class="box">
+      <div class="info">
+        <h2 class="pergunta">
+          <span>FICOU COM DÚVIDA?</span> <br />
+          NOS MANDE UMA MENSAGEM!
+        </h2>
+        <p class="textinho">
+          caso tenha ficado com qualquer dúvida basta <br />
+          nos mandar uma mensagem e <br />
+          entraremos em contato em menos de 24h.
+        </p>
+      </div>
+      <div class="cadastro">
+        <h2 class="titulo-cadastro">Cadastro:</h2>
+        <form>
+          <input
+            id="nome"
+            class="input"
+            type="text"
+            placeholder="Nome completo *"
+            required
+          /><br />
+          <input
+            id="email"
+            class="input"
+            type="email"
+            placeholder="Email *"
+            required
+          /><br />
+          <input
+            id="telefone"
+            class="input"
+            type="tel"
+            placeholder="Telefone *"
+            required
+          /><br />
+          <input
+            id="mensagem"
+            class="input mensagem"
+            type="text"
+            placeholder="Mensagem *"
+          />
+          <h4 class="co">*campos obrigatórios</h4>
+          <button class="envio">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(70, 174, 205, 0.891) 0%,
+    rgba(198, 77, 209, 0.844) 0%,
+    rgba(227, 61, 119, 0.872) 53%
+  );
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  height: 400px;
+}
+
+.box .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.box .cadastro {
+  background-color: #fff;
+  padding: 20px 20px 0 20px;
+  border-radius: 10px;
+  margin-left: 150px;
+}
+
+.box .cadastro .input {
+  padding: 7px;
+  padding-right: 75px;
+  margin: 5px;
+  border-color: rgb(233, 227, 227);
+  border-radius: 10px;
+  outline: 0;
+}
+
+.box .cadastro .mensagem {
+  padding-bottom: 70px;
+}
+
+.box .info .textinho {
+  padding-top: 20px;
+  font-size: 19px;
+  color: #ffffffe8;
+}
+
+.box .envio {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 100px 5px 103px;
+  background-color: #3ccc87;
+  transition: 0.5s;
+  border: none;
+}
+.box .envio:hover {
+  background-color: #0aff88;
+}
+
+.box .co {
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.box span {
+  font-size: 40px;
+}
+
+.box .titulo-cadastro {
+  display: flex;
+  padding-bottom: 7px;
+  justify-content: center;
+}
